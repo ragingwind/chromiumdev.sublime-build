@@ -1,0 +1,5 @@
+{
+  "cmd": ["ninja", "-C", "out/Debug", "chrome"],
+  "working_dir": "${project_path}/src",
+  "file_regex": "^(..[^:\n]*):([0-9]+):?([0-9]+)?:? (.*)$"
+}

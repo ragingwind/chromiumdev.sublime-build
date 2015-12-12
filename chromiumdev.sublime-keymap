@@ -1,0 +1,8 @@
+{ "keys": ["command+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+{ "keys": ["command+shift+period"], "command": "navigate_to_definition" },
+{ "keys": ["command+shift+comma"], "command": "jump_prev" },
+{ "keys": ["command+shift+l"], "command": "run_lint" },
+{ "keys": ["command+f7"], "command": "compile_current_file", "args": {"target_build": "Debug"} },
+{ "keys": ["command+shift+f7"], "command": "compile_current_file", "args": {"target_build": "Release"} },
+{ "keys": ["command+shift+u"], "command": "build", "args": {"variant": "unit_tests"} },
+{ "keys": ["command+shift+b"], "command": "build", "args": {"variant": "browser_tests"} }
